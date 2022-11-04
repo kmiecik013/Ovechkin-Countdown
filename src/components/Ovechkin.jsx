@@ -2,6 +2,7 @@ import ovechkin1 from "../images/ovechkin.jpeg";
 import ovechkin2 from "../images/ovechkin2.jpeg";
 import GoalCount from "./GoalCount";
 import TotalGoals from "./TotalGoals";
+import NextGame from "./NextGame";
 
 
 
@@ -27,7 +28,7 @@ export default function Ovechkin() {
      </div>
   
       
-
+    <NextGame />
 
       
 

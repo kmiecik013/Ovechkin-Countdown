@@ -30,7 +30,7 @@ export default function GoalCount() {
    
 
     
-    <p className="card-text">... to catch Wayne Gretzky</p>
+    <p className="card-text">...to catch Wayne Gretzky</p>
     <p className="till-grez"> {oviCount(goals)}{goals}</p>
     
 
