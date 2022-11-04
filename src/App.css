@@ -31,7 +31,7 @@ h1 {
 
 .card {
   position: absolute;
-  top:150px;
+  top:100px;
   right:200px;
   color:white;
   background-color: rgba(red,0.2);
