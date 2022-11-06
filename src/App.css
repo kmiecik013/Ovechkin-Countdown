@@ -113,3 +113,58 @@ h1 {
 .nhl-team {
   color:rgb(255, 123, 0);
 }
+
+@media screen and (max-width: 425px) {
+
+
+body {
+  background-image: url('images/ovechkin3.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+  .card {
+    position: relative;
+    align-items: center;
+    color:white;
+    background-color: rgba(red,0.2);
+    backdrop-filter: blur(8px);
+    padding:60px 10px 60px 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 10px 5px 7px rgba(black);
+    overflow: hidden;
+    transition: transform 0.5s; 
+    margin:100px 50px 0px 50px;
+    top:0;
+    right:0;
+  }
+
+  .main-structure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+.next-game {
+  
+  color:white;
+  font-size: 15px;
+  position:relative;
+  background-color: rgb(87, 4, 4);
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  top:0px;
+  right:0px;
+  margin: 20px 10px;
+  text-align: center;
+}
+.card-text {
+  background-color: black;
+  padding:0px 0px;
+}
+}
+  

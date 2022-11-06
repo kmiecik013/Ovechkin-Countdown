@@ -33,7 +33,7 @@ const oviTotalGoal = () => {
     
 
 
-    <p className="card-text ">Career Goals</p> 
+    <p><span className="card-text">Career Goals</span></p> 
     <p className="total-goals-ovi"> {oviTotalGoal(goals2)}{goals2}</p>
     
 
