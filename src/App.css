@@ -101,10 +101,15 @@ h1 {
 .next-game {
   
   color:white;
-  font-size: 20px;
+  font-size: 30px;
   position: absolute;
   bottom:30px;
-  right:400px;
-  background-color: black;
-  
+  right:200px;
+  background-color: rgb(87, 4, 4);
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.nhl-team {
+  color:rgb(255, 123, 0);
 }
