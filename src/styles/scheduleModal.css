@@ -1,0 +1,23 @@
+@font-face {
+  font-family:type;
+  src: url("../fonts/OldNewspaperTypes.ttf");
+}
+
+
+.modal-list {
+  margin: 30px 20px;
+  padding: 0px;
+  text-align: center;
+  font-family: type;
+
+}
+
+.main-content-schedule {
+  margin-top: 20px;
+}
+
+h1.title-modal-schedule {
+  font-family: type;
+  font-size: 35px;
+  margin-top: 50px;
+}

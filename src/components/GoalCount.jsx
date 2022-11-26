@@ -18,7 +18,7 @@ export default function GoalCount() {
     
       return setGoals(894 - (res.data.stats[0].splits[0].stat.goals + 780))
 
-    console.log(res.data.stats[0].splits[0].stat.goals)
+    console.log(res.data.stats[0].splits[0].stat)
 
   })
 }

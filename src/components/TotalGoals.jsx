@@ -20,7 +20,7 @@ const oviTotalGoal = () => {
     setGoals2(res.data.stats[0].splits[0].stat.goals + 780)
  
 
-    console.log(res.data.stats[0].splits[0].stat.goals)
+    console.log("goals",res.data.stats[0].splits[0].stat.goals)
   })
 }
 
