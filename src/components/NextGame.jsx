@@ -18,9 +18,16 @@ export default function NextGame() {
   const whenNextGame = () => {
     Axios.get(url).then((res) => {
       console.log("once", res.data)
-      setNextGame(res.data.dates[0].games[0].teams.away.team.name);
 
+        if (res.data.dates[0].games[0].teams.away.team.name !== "Washington Capitals") {
+      setNextGame(res.data.dates[0].games[0].teams.away.team.name);
       return setNextGame(res.data.dates[0].games[0].teams.away.team.name);
+        }
+        else {
+          setNextGame(res.data.dates[0].games[0].teams.home.team.name);
+      return setNextGame(res.data.dates[0].games[0].teams.home.team.name);
+        }
+      
 
       console.log(res.data.dates[0].games[0].teams);
     });

@@ -15,29 +15,32 @@ export default function Ovechkin() {
 
   return (
     <div className="main-structure">
-      <div className="card">
-        <h1>OVECHKIN</h1>
+      <h1 className="ovi-countdown-title">Ovi's Chase to Gretzky</h1>
+      <div className="card-plus">
+        <div className="card">
+          <h1>OVECHKIN</h1>
 
-        <div className="goal-content">
-          <TotalGoals />
-          <GoalCount />
-        </div>
-      </div>
-
-      <NextGame />
-
+          <div className="goal-content">
+            <TotalGoals />
+            <GoalCount />
+          </div>
+        </div> 
       <div className="bottom-buttons">
-
-      <button className="check-schedule"
+        <button className="check-schedule"
             onClick= {()=>setIsOpen(true)}>Get Schedule</button>
-       <ScheduleModal open={isOpen} onClose={()=> setIsOpen(false)}>
-        </ScheduleModal>
+          <ScheduleModal open={isOpen} onClose={()=> setIsOpen(false)}>
+          </ScheduleModal>
 
         <button className="check-leaders"
             onClick= {()=>setIsOpen1(true)}>Get LeaderBoard</button>
-       <LeaderBoard open={isOpen1} onClose={()=> setIsOpen1(false)}>
-        </LeaderBoard>
-        </div>
+          <LeaderBoard open={isOpen1} onClose={()=> setIsOpen1(false)}>
+          </LeaderBoard>
+      </div>
     </div>
+
+      <NextGame />
+
+  </div>
+     
   );
 }

@@ -2,7 +2,7 @@ import ReactDom from 'react-dom'
 import "../styles/leaderModal.css"
 import Axios from "axios";
 import {useState} from "react"
-import players from "./playersDB.js"
+import playerSorted from "./playersDB.js"
 
 
 
@@ -57,7 +57,7 @@ export default function Modal({ open, children, onClose }) {
                 className="x-botton">X</button>
         <div className="leader-title">Career Goals LeaderBoard </div>
         <div className="important-content">
-          {players.map(createLeaderBoard)}
+          {playerSorted.map(createLeaderBoard)}
 
       <div>
       
