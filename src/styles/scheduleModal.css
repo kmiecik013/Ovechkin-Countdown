@@ -13,11 +13,12 @@
 }
 
 .main-content-schedule {
-  margin-top: 20px;
+  margin-top: 10px;
+  font-size:10px;
 }
 
 h1.title-modal-schedule {
   font-family: type;
   font-size: 35px;
-  margin-top: 50px;
+  margin-top: 20px;
 }

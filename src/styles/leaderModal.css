@@ -60,11 +60,16 @@
 @media (max-width: 768px){
   .important-content {
     width: 400px;
+    height: 600px;
     padding: 0 0 0 0;
   }
   
   .model-styles {
     border-radius:10px;
+  }
+
+  .player-on-leader {
+    font-size: 15px;
   }
   
   
@@ -87,6 +92,7 @@
 @media (max-width: 375px) {
   .important-content {
     width: 330px;
+    height:500px;
     padding: 0 0 0 0;
   }
   
