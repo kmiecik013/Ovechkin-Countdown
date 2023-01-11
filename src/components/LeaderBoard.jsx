@@ -59,6 +59,7 @@ export default function Modal({ open, children, onClose }) {
         <div className="important-content">
           {playerSorted.map(createLeaderBoard)}
 
+
       <div>
       
       </div>
@@ -68,4 +69,6 @@ export default function Modal({ open, children, onClose }) {
       document.getElementById('portal')
   
     );
+    
+    console.log("Checkarray", playerSorted)
 }

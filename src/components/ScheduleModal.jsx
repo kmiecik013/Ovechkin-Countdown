@@ -50,7 +50,7 @@ let scheduleArray = []
 
      
       let i = 0
-      while (i < 10) {
+      while (i < 7) {
         scheduleArray.push(`${res.data.dates[i].games[0].teams.away.team.name} vs ${res.data.dates[i].games[0].teams.home.team.name} on ${res.data.dates[i].date}`)
         i++;
       }

@@ -92,11 +92,15 @@ const players = [
 
 const playerSorted = players.sort((a, b) => b.goals - a.goals)
 
+
+
 const OviColor = () => {
   
   if (players.name === "Alex Ovechkin") {
       return <div className="name" style ={{color: "blue"}}></div>
   } 
 }
+
+console.log("check number", playerSorted)
 
 export default playerSorted
